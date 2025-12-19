@@ -1,0 +1,18 @@
+[
+  {
+    "query": "What are the main applications of deep learning in medical imaging?",
+    "domain": "medical imaging",
+    "expected_topics": ["CNN", "radiology", "diagnosis", "image classification"]
+  },
+  {
+    "query": "How do neural networks help in clinical decision support systems?",
+    "domain": "clinical decision support",
+    "expected_topics": ["decision support", "clinical", "prediction", "risk assessment"]
+  },
+  {
+    "query": "What are the challenges of using AI in electronic health records?",
+    "domain": "EHR",
+    "expected_topics": ["EHR", "data quality", "privacy", "integration"]
+  }
+]
+

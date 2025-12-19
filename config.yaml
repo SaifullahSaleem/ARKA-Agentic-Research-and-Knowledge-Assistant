@@ -1,0 +1,40 @@
+# Configuration file for the Agentic AI Interface
+
+domain: "Machine Learning in Healthcare"
+
+# Vector store settings
+vector_store:
+  type: "faiss"  # Options: faiss, chroma
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  chunk_size: 1000
+  chunk_overlap: 200
+
+# Retrieval settings
+retrieval:
+  k: 5  # Number of chunks to retrieve
+  search_type: "similarity"  # Options: similarity, mmr
+
+# LLM settings
+llm:
+  provider: "groq"
+  model: "llama-3.1-8b-instant"  # Updated: llama-3.1-70b-versatile was decommissioned
+  # Alternative models: "llama-3.3-70b-versatile", "mixtral-8x7b-32768", "llama-3.1-70b-versatile"
+  temperature: 0.7
+  max_tokens: 2048
+
+# Agent settings
+agent:
+  max_iterations: 10
+  verbose: true
+
+# Evaluation settings
+evaluation:
+  sample_size: 30
+  metrics: ["context_precision", "answer_relevance", "faithfulness", "chunk_stats", "efficiency"]
+
+# Monitoring
+monitoring:
+  prometheus_port: 9090
+  grafana_port: 3000
+  log_level: "INFO"
+

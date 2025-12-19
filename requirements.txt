@@ -1,0 +1,58 @@
+# Core dependencies
+# Python 3.13 compatible requirements
+# Note: Some packages may need to be installed individually if conflicts occur
+
+# LLM and AI frameworks
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+groq>=0.4.1
+langchain-core>=0.3.0
+
+# Vector stores and embeddings
+faiss-cpu>=1.13.1
+sentence-transformers>=2.7.0
+chromadb>=0.5.0
+
+# PDF processing
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+PyPDF2>=3.0.1
+
+# Data processing
+# Note: pandas and numpy may need specific versions for Python 3.13
+# If installation fails, try: pip install pandas numpy --upgrade
+pandas>=2.2.3
+numpy>=2.0.0
+scikit-learn>=1.5.0
+
+# Web scraping and API
+serpapi>=0.1.5
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+
+# Web UI
+streamlit>=1.39.0
+streamlit-option-menu>=0.3.13
+
+# Monitoring and logging
+prometheus-client>=0.21.0
+grafana-api>=1.0.3
+python-json-logger>=2.0.7
+
+# Evaluation metrics
+rouge-score>=0.1.2
+nltk>=3.9.0
+transformers>=4.45.0
+# Note: torch installation may be large, consider CPU-only version
+# For CPU only: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.4.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+pyyaml>=6.0.2
+openpyxl>=3.1.5
+

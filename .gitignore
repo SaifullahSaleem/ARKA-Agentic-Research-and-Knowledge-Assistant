@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+papers/
+pdfs/
+*.pkl
+*.npy
+*.bin
+*.json
+*.csv
+!config.yaml
+!requirements.txt
+!test_queries.json.example
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Monitoring
+monitoring/prometheus_data/
+monitoring/grafana_data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment results
+experiment_results_*.json
+experiment_results_*.csv
+experiment_analysis.json
+
