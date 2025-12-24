@@ -1,4 +1,4 @@
-# Agentic AI Interface from Research Papers
+# ARKA
 
 A comprehensive agentic AI system that retrieves information from a curated corpus of research papers, answers queries using advanced retrieval and LLM orchestration, and provides monitoring and evaluation capabilities.
 
